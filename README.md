@@ -1,4 +1,6 @@
 #华为推送
+
+
 ##返回码：[详情请参考华为文档](https://developer.huawei.com/consumer/cn/doc/HMSCore-References/https-send-api-0000001050986197#section26371025193915)
 | 错误码 | 错误描述 | 解决办法 |
 | --- | --- | --- |
