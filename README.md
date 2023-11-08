@@ -1,7 +1,7 @@
-#华为推送
+# 华为推送
 
 
-##返回码：[详情请参考华为文档](https://developer.huawei.com/consumer/cn/doc/HMSCore-References/https-send-api-0000001050986197#section26371025193915)
+## 返回码：[详情请参考华为文档](https://developer.huawei.com/consumer/cn/doc/HMSCore-References/https-send-api-0000001050986197#section26371025193915)
 | 错误码 | 错误描述 | 解决办法 |
 | --- | --- | --- |
 | 200 | 成功。 | - |
@@ -34,8 +34,8 @@
 | 80600003 | 请求Oauth服务失败。 | 请检查Oauth 2.0客户端ID和客户端密钥。 |
 | 81000001 | 系统内部错误。 | 请联系技术支持解决。 |
 
-#荣耀推送
-##返回码： [详情请参考荣耀文档](https://developer.hihonor.com/cn/kitdoc?category=基础服务&kitId=11002&navigation=ref&docId=downlink-message.md&token=#响应码)
+# 荣耀推送
+## 返回码： [详情请参考荣耀文档](https://developer.hihonor.com/cn/kitdoc?category=基础服务&kitId=11002&navigation=ref&docId=downlink-message.md&token=#响应码)
 | 响应码 | 响应码含义 | 建议业务方处理方式 |
 | --- | --- | --- |
 | 200 | 成功 |  |
@@ -57,7 +57,7 @@
 | 10300 | push token is null | 请填写pushToken |
 | 10205 | appId is not found | appId不存在 |
 
-##荣耀回执状态码
+## 荣耀回执状态码
 | 回执状态码 | 状态码描述 |
 | --- | --- |
 | 40000001 | 透传消息已成功下发给目标应用进程 |
@@ -74,8 +74,8 @@
 | 40000015 | 通知栏展示失败（需检查自定义点击消息动作是否有效） |
 | 50000003 | 在终端设备上目标应用进程不存在导致透传消息被缓存 |
 
-#oppo推送
-##返回码： [详情请参考oppo文档](https://open.oppomobile.com/new/developmentDoc/info?id=11235)
+# oppo推送
+## 返回码： [详情请参考oppo文档](https://open.oppomobile.com/new/developmentDoc/info?id=11235)
 | Code | 英文描述 | 中文描述 |
 | --- | --- | --- |
 | -2 | Service in Flow Control | 服务器流量控制 |
@@ -109,8 +109,8 @@
 | 41 | Invalid Arguments | 参数错误，一般是用户传入参数非法引起的，请仔细检查入参格式、范围是否一一对应 |
 | 51 | Invalid Picture | 图片无效，一般是图片格式、图片分辨率、图片大小不符合格式及图片未上传等，请仔细检查图片格式及上传文件方式。 |
 
-#vivo推送
-##返回码： [详情请参考vivo文档](https://dev.vivo.com.cn/documentCenter/doc/362#w1-98736113)
+# vivo推送
+## 返回码： [详情请参考vivo文档](https://dev.vivo.com.cn/documentCenter/doc/362#w1-98736113)
 | Result | Desc |
 | --- | --- |
 | 0 | 请求成功 |
@@ -165,8 +165,8 @@
 | 10154 | aliases 个数不在指定范围[2-1000] |
 | 10155 | 消息不存在或已过期 |
 
-#小米推送
-##返回码： [详情请参考小米文档](https://dev.mi.com/distribute/doc/details?pId=1560)
+# 小米推送
+## 返回码： [详情请参考小米文档](https://dev.mi.com/distribute/doc/details?pId=1560)
 | Error Code | Description |
 | --- | --- |
 | -1 | 未知错误 |
@@ -252,8 +252,8 @@
 | 200001 | 推送数量超过当日限额。限制说明请参见“每日推送数量限制”。 |
 | 200002 | 推送QPS超过限额。限制说明请参见“推送速率QPS限制”。 |
 
-#魅族推送
-##返回码： [详情请参考魅族文档](https://github.com/MEIZUPUSH/PushAPI/blob/master/README.md)
+# 魅族推送
+## 返回码： [详情请参考魅族文档](https://github.com/MEIZUPUSH/PushAPI/blob/master/README.md)
 | code   | value                   |
 | ------ | ----------------------- |
 | 200    | 正常                    |
@@ -278,8 +278,8 @@
 | 110005 | alias失效(alias未订阅或者消息开关关闭)                   |
 | 110010 | pushId失效(消息开关关闭)                                 |
 
-#IM离线推送错误码
-##返回码：[详情请参考IM文档](https://cloud.tencent.com/document/product/269/1671)
+# IM离线推送错误码
+## 返回码：[详情请参考IM文档](https://cloud.tencent.com/document/product/269/1671)
 | Error Code | Description |
 | --- | --- |
 | -195 | 谷歌推送构建推送对象失败，通常是证书错误导致。 |
